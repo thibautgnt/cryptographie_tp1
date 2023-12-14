@@ -32,3 +32,17 @@ def cbc_decrypt(data, key, iv):
 
     return decrypted
 
+# Decrypt
+decrypted_data = cbc_decrypt(encrypted_data, key, iv)
+print("Données déchiffrées:", decrypted_data)
+
+def cbc_decrypt(data, key, iv):
+    decrypted = ""
+    previous_block = iv
+
+    for i in range(0, len(data), len(key)):
+        block = data[i:i+len(key)]
+        decrypted += xor(block, previous_block)
+        previous_block = block
+
+    return decrypted
