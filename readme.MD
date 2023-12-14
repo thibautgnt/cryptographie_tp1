@@ -1,12 +1,18 @@
-# Sujet de cryptographie.
+# TP 1 - Cryptographie 🔐
 
-En python vous allez devoir développer deux scripts.
+>🌟 Bienvenue sur le repository GitHub du projet "TP 1 Cryptographie" pour la classe B2 Cyber Efrei. 🌟
 
-- Un scripts capable de chiffre un élément en utilisant le procéder de CBC (voir slide 20).
-Sans utiliser de bibliothèque python concernant la cryptographie.
+## Consigne
 
-- Un script pour déchiffrer un élément.
+>En python vous allez devoir développer deux scripts.
+>
+>- Un scripts capable de chiffre un élément en utilisant le procéder de CBC (voir slide 20).
+>Sans utiliser de bibliothèque python concernant la cryptographie.
+>
+>- Un script pour déchiffrer un élément.
+>
+>L'algorithme de chiffrement à utiliser est l'opération XOR.
 
-> L'algorithme de chiffrement à utiliser est l'opération XOR.
+## Travail effectué
 
-Groupe de 1
+> Le travail effectué se situe dans le fichier `main.py`.
