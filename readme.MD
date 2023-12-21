@@ -1,6 +1,6 @@
-# TP 1 - Cryptographie 🔐
+# Projet - Cryptographie 🔐
 
->🌟 Bienvenue sur le repository GitHub du projet "TP 1 Cryptographie" pour la classe B2 Cyber Efrei. 🌟
+>🌟 Bienvenue sur le repository GitHub du projet "Projet - Cryptographie" pour la classe B2 Cyber Efrei. 🌟
 
 ## Consigne
 
