@@ -11,8 +11,9 @@
 >
 >- Un script pour déchiffrer un élément.
 >
->L'algorithme de chiffrement à utiliser est l'opération XOR.
+>L'algorithme de chiffrement à utiliser est l'opération **XOR**.
 
 ## Travail effectué
 
-> Le travail effectué se situe dans le fichier `main.py`.
+> Afin de chiffrer un **texte**, exécuter `main.py` <br>
+> Afin de chiffrer un **fichier**, exécuter `file.py`
