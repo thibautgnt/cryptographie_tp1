@@ -29,25 +29,25 @@ def cbc_decrypt(data, key, iv):
 
     return decrypted
 
+# Clé de chiffrement et vecteur d'initialisation.
+encryption_key = "06d47b0c838e7107e4e1cab17360a758"
+iv = "2c3135b2a77531f6a93a011fefd2e950"
+
 # Demande à l'utilisateur le texte à chiffrer.
 data_to_encrypt = input("Entrez le texte à chiffrer : ")
-
-# Demande à l'utilisateur la clé de chiffrement.
-encryption_key = input("Entrez la clé de chiffrement : ")
-
-# Demande à l'utilisateur le vecteur d'initialisation (IV).
-iv = input("Entrez le vecteur d'initialisation (IV) : ")
 
 # Chiffrement.
 encrypted_data = cbc_encrypt(data_to_encrypt, encryption_key, iv)
 print("Données chiffrées:", encrypted_data)
 
 # Demande à l'utilisateur s'il souhaite déchiffrer les données.
-decrypt_choice = input(" Voulez-vous déchiffrer les données ? (Oui/Non) ").strip().lower()
+decrypt_choice = input("Voulez-vous déchiffrer les données ? (Oui/Non) ").strip().lower()
 
 if decrypt_choice == "oui" or decrypt_choice == "o":
     # Déchiffrement.
     decrypted_data = cbc_decrypt(encrypted_data, encryption_key, iv)
     print("Données déchiffrées:", decrypted_data)
 else:
-    print("Ok dommage.")
+    print("Ok dommage")
+
+# Fin du code, stylé
