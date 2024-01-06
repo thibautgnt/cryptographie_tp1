@@ -1,0 +1,1 @@
+Ceci est un exemple de fichier texte à chiffrer en utilisant le mode CBC.
