@@ -1,3 +1,10 @@
+# ----------------------------------------------------------------------------------------------------------- #
+
+                # Projet - Cryptographie par Thibaut GENET - B2 CS2 Efrei #
+
+# ----------------------------------------------------------------------------------------------------------- #
+
+
 # Importation des modules
 import os # Pour les opérations sur les fichiers
 import struct # Pour les opérations sur les octets
