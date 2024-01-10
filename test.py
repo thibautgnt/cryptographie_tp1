@@ -102,7 +102,7 @@ print("Vecteur d'initialisation (IV):", iv_file)
 def print_separator():
     print("-" * 50)
 
-# Affichage du menu utilisateur avec une présentation améliorée
+# Affichage du menu utilisateur
 print_separator()
 print("Ça chiffre ou ça déchiffre aujourd'hui chef ?")
 print_separator()
