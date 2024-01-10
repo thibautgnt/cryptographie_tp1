@@ -15,5 +15,5 @@
 
 ## Travail effectué
 
-> Afin de chiffrer un **texte**, exécuter `main.py` <br>
-> Afin de chiffrer un **fichier**, exécuter `file.py`
+> Le travail effectué avant le passage à l'oral est à trouver dans `cryptaid.py` <br>
+> Le travail effectué **après** le passage à l'oral est à trouver dans `main.py`
